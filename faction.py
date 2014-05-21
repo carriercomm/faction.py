@@ -1108,6 +1108,7 @@ def main(filename):
             if not re.search('PvP|levitation', line):
                 zone = zonetable[m.group(1)] if \
                        zonetable.has_key(m.group(1)) else m.group(1)
+            continue
         m = pfaction.match(line)
         if m:
             if not setname and not hits.items():
