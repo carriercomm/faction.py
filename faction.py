@@ -4,6 +4,7 @@
 #
 # Copyright © 2014 Michael Cook <mcook@mackal.net>
 #
+# GPLv3
 
 """
 Processes an eqlog file and generates SQL to update factions
