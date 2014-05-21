@@ -1074,7 +1074,7 @@ class Mob(object):
         return self.name == other.name and self.zone == other.zone
 
     def generate_sql(self):
-        "Generaets SQL statements"
+        "Generates SQL statements"
         return ('UPDATE npc_types SET npc_faction_id = @{} WHERE '
                 'name RLIKE \'{}\' AND id >= {} AND id <= {};'
                 .format(self.faction, cleanmobname(self.name), self.zone * 1000,
