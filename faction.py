@@ -543,7 +543,7 @@ zonetable = {
     "The Bazaar": 151,
     "Befallen": 36,
     "Befallen": 411,
-    "Gorge of King Xorbb": 16,
+    "The Gorge of King Xorbb": 16,
     "Temple of Bertoxxulous": 469,
     "Blackburrow": 17,
     "Blacksail Folly": 428,
