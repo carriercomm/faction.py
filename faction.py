@@ -1012,7 +1012,7 @@ def factionsetname(item):
 
 def cleanmobname(name):
     "Cleans mob name for DB look up"
-    return re.sub('`', '-', re.sub(' ', '_', name))
+    return re.sub(' ', '_', name)
 
 class FactionSet(object):
     """
